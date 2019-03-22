@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<entities>
+  // SkyBoxs and Ground
+  <entity>
+  <name>SkyBox</name>
+  <components>
+    <position>0.0, 0.0, 0.0</position>
+    <transform>50.0, 30.0, 50.0, 0.5, 0.0, 0.0</transform>
+    <geometry>Geometry/CubeGeometry.txt</geometry>
+    <skybox>Textures/Skybox/right.jpg, Textures/Skybox/left.jpg, Textures/Skybox/top.jpg, Textures/Skybox/bottom.jpg, Textures/Skybox/front.jpg, Textures/Skybox/back.jpg</skybox>
+  </components>
+  </entity>
+  <entity>
+    <name>Gorilla1</name>
+    <components>
+      <position>-20.0, 8.0, -23.0</position>
+      <transform>0.8, 1.2, 0.8, 0.0, 0.0, 0.0</transform>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <texture>Textures/Gorilla.jpg</texture>
+      <collision>false</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>Gorilla2</name>
+    <components>
+      <position>20.0, 8.0, -23.0</position>
+      <transform>0.8, 1.2, 0.8, 0.0, 0.0, 0.0</transform>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <texture>Textures/Gorilla.jpg</texture>
+      <collision>false</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>Banana</name>
+    <components>
+      <position>0.0, -50.0, -23.0</position>
+      <transform>0.6, 0.6, 0.6, 0.0, 0.0, 0.0</transform>
+      <geometry>Geometry/SquareGeometry.txt</geometry>
+      <texture>Textures/banana.png</texture>
+      <velocity>0.0, 0.0, 0.0</velocity>
+      <animator>0.0, 0.0, 1.0, 0.05</animator>
+    </components>
+  </entity>
+  <entity>
+    <name>Sun</name>
+    <components>
+      <position>2.0, 16.0, -20.0</position>
+      <transform>1.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>SunFace</name>
+    <components>
+      <position>2.0, 16.0, -20.0</position>
+      <transform>1.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <geometry>Geometry/SquareGeometry.txt</geometry>
+      <texture>Textures/sun_1.png</texture>
+    </components>
+  </entity>
+</entities>

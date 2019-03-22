@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CONFIGURATION>
+  <NAME>Gorillas 3D</NAME>
+  <RESOLUTION>1600x900</RESOLUTION>
+  <SCENES>
+    <SCENE>MainMenu</SCENE>
+	  <SCENE>GameScene</SCENE>
+	  <SCENE>GameOver</SCENE>
+    <SCENE>IntroScene</SCENE>
+  </SCENES>
+</CONFIGURATION>
